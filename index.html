@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tombol Pesan dan Google Drive</title>
+    <style>
+        body {
+            background-color: rgb(106, 66, 195);
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        button {
+            background-color: rgb(145, 62, 166);
+            color: rgb(231, 226, 226);
+            border: none;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: lightgray;
+        }
+
+        .message {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>happyyy anivvv sayang  dari iyannnnn</h1>
+    <button onclick="displayMessage('happy aniv ke 8 bububku sayangku cintakuuu, makasih yaa sayang buat 8 bulanya aku bahagia banget sayangg bisa jalanin hubungan ini ama kamu sayanngg, g kerasa yah sayangg hubungan kita udah 8 bulan aku selama ini ngerasa bahagia bangett sayangg aku ngerasa selalu di perhatiin ama kamu sayang selalu ada tempat buat aku carita, aku ga isa bayangin sayang kal kamu ga ama aku sayang aku ga tau kaya apa aku sekarang, kamu udah ubah aku jadi yang terbaik sayangg aku bahagiaa banget tau sayang bisa jalanin hubungan ini ama kamu sayangg makasih yaa sayanggg😚😚😚😚😚')">Pesan 1</button>
+    <button onclick="displayMessage('di sini aku mau kasih tau nih sayang perasaanku jalanin hubungan ini, aku tuh bahagia banget sayangg bisa selalu ama kamu sayangg bisa jalanin hubungan ini ama kamu sayanggg semoga hubungan kita selalu langgeng yaa sayangg ga boleh ada orang ketiga yaa sayangg, ga boleh ada penyesalan yaa sayangggg saat jalanin hubungan ini semoga kita bisa terus bersama yaa sayanggg, aku sayng kamu selamanya sayanggg aku janji bakal selalu berusaha semaksimal mungkin biar sayang bahagia')">Pesan iyan</button>
+    <button onclick="displayMessage('pesan 3 ini aku mau sayang kasih kaya kesannya gimana jalanin hubungan ini terus apakah syaang udah bahagia sayamg atau belum sayang harus isi dengan jujur loh yaaa sayanggg😚😚😚😚😚')">Pesan iyan</button>
+    
+    <!-- Tombol Google Drive -->
+    <button onclick="goToDrive1()">vide aniv buat sayanggg😚😚😚😚😚</button>
+    <button onclick="goToDrive2()">pesan dari iyan audio 1</button>
+    <button onclick="goToDrive3()">pesan iyan audio 2</button>
+
+    <div class="message" id="messageBox"></div>
+
+    <script>
+        function displayMessage(message) {
+            document.getElementById('messageBox').innerText = message;
+        }
+
+        function goToDrive1() {
+            window.location.href = 'https://drive.google.com/file/d/1jrUK19jYINlZcHxPza9edKf78om-X4Gz/view?usp=drivesdk';  // Ganti dengan URL file Google Drive pertama Anda
+        }
+
+        function goToDrive2() {
+            window.location.href = 'https://drive.google.com/file/d/1xErS1TRmgfNmOHKeLUV6Xh53imjAo0yz/view?usp=drive_link';  // Ganti dengan URL file Google Drive kedua Anda
+        }
+
+        function goToDrive3() {
+            window.location.href = 'https://drive.google.com/file/d/1ziDQ7SCBIHiwONSchoGc_iW2CY4cpqSu/view?usp=drive_link';  // Ganti dengan URL file Google Drive ketiga Anda
+        }
+    </script>
+
+</body>
+</html>
